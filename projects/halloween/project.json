@@ -1,0 +1,81 @@
+{
+  "project": "Halloween character edit",
+  "session_date": "2026-10-15",
+  "notes_language": "th",
+  "tool": "Remotion",
+  "remotion_version": "4.0.535",
+  "duration_seconds": 19.2,
+  "fps": 30,
+  "bpm": 150,
+  "compositions": [
+    {
+      "id": "Halloween",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "HalloweenTikTok",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "source_images": [
+    "Original.PNG",
+    "V1.PNG",
+    "New.pfp_1.png"
+  ],
+  "opening_order": [
+    "New.pfp_1.png",
+    "V1.PNG",
+    "Original.PNG"
+  ],
+  "selected_transition": {
+    "type": "monochrome TV static with electrical zap",
+    "from_seconds": 2.9,
+    "to_seconds": 3.5,
+    "first_picture_cut_seconds": 3.2
+  },
+  "drop_seconds": 6.4,
+  "per_image_rules": {
+    "New.pfp_1.png": {
+      "grayscale_when_timeline_seconds_at_least": 8,
+      "flying_spirits": false
+    },
+    "V1.PNG": {
+      "keep_original_color": true,
+      "flying_spirits": true
+    },
+    "Original.PNG": {
+      "keep_original_color": true,
+      "flying_spirits": true,
+      "subtle_eye_glint": true
+    }
+  },
+  "character_aura": false,
+  "screen_edge_effect": "animated shadow tendrils with character-safe center",
+  "typography": {
+    "palette": "muted bone, dusty mauve and grey-violet",
+    "expansion": "fade fill toward outlines",
+    "hook_at_14_4_seconds": "type on, then move into center"
+  },
+  "music": {
+    "original_synthesized_instrumental": true,
+    "plucked_bass_guitar_synthesis": true,
+    "muted_guitar_accents_synthesis": true,
+    "recorded_live_guitar": false,
+    "commercial_song_selected": false
+  },
+  "export": {
+    "file": "Halloween-TikTok.mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 25316947,
+    "local_destination_relative_to_user": "Downloads/Halloween-TikTok/Halloween-TikTok.mp4",
+    "decoded_without_errors": true,
+    "copied_file_sha256_matched": true
+  },
+  "repository_scope": "Documentation and project manifest only. Media and Remotion source remain local."
+}
