@@ -1,0 +1,81 @@
+{
+  "project": "Sweet Talk cute illustrated lyric MV",
+  "session_date": "2026-10-16",
+  "notes_language": "th",
+  "tool": "Remotion",
+  "remotion_version": "4.0.536",
+  "source_relative_to_workspace": "outputs/sweet-talk",
+  "source_assets_relative_to_user": "Downloads/mv",
+  "media_in_repository": false,
+  "remotion_source_in_repository": false,
+  "song": {
+    "title": "Sweet Talk (โม้)",
+    "artist": "Poru",
+    "source_url": "https://www.youtube.com/watch?v=eWAwntTyLHU",
+    "local_file": "public/song.m4a",
+    "duration_seconds": 212.509025
+  },
+  "source_assets": ["ภาพปกติ.png", "แยกเลเยอร์.psd", "ไทม์แลปส์.mov", "videoplayback.m4a"],
+  "video": {"width": 1920, "height": 1080, "fps": 30, "frames": 6376, "duration_seconds": 212.533333},
+  "compositions": {
+    "latest_review": "SweetTalk-Full-B",
+    "preserve_comparison": "SweetTalk-Full-A",
+    "preserve_previous": "SweetTalk-Full",
+    "legacy_initial_draft": "SweetTalk-Original-Draft"
+  },
+  "latest_scope": "B only: continuous scene bridges at five former-light points and smooth mixed word/group/sentence typography. A retained.",
+  "latest_user_final_approval": false,
+  "lyric_timing": {
+    "lead_seconds_requested": [0.15, 0.2],
+    "lead_ms_setting": 180,
+    "lead_frames_at_30fps": 5,
+    "primary_alignment": "local faster-whisper small forced alignment against supplied audio",
+    "subword_timing": "proportional estimates within existing phrase bounds; not verified phoneme timing",
+    "b_modes_file": "src/lyric-styles-b.json"
+  },
+  "character": {
+    "rig_parts": 14,
+    "canvas": [2304, 3072],
+    "motion": "head/neck pivot plus separate hair and earring follow-through; restrained connected torso motion",
+    "shirt_arms_hands_cake_still_combined": true,
+    "body_png": "public/art/rig/part-4-feathered.png",
+    "live_css_body_mask_removed": true
+  },
+  "transition_decisions": {
+    "beat_flashes": false,
+    "light_sweeps_and_expanding_sparkles": false,
+    "all_other_transitions_removed": false,
+    "mascot_wipe_seconds": 96.1,
+    "mascot_wipe_has_colored_backing": false,
+    "paper_word_seconds": 141.6,
+    "paper_word_text": "จริงเหรอ?",
+    "b_replaced_light_points_seconds": [41.7, 70.8, 117.4, 132.1, 189.7],
+    "b_bridge_ranges_seconds": [[39.9, 43.5], [69.2, 72.4], [115.8, 118.8], [130.5, 133.7], [188.1, 191.5]]
+  },
+  "preview_export": {
+    "file_relative_to_project": "out/SweetTalk-Full-B-preview-540p.mp4",
+    "exists": true,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 960,
+    "height": 540,
+    "fps": 30,
+    "frames": 6376,
+    "container_duration_seconds": 212.544,
+    "bytes": 22547109,
+    "metadata_verified": true,
+    "full_decode_verified": true,
+    "user_reviewed": false,
+    "user_final_approved": false,
+    "assets": "half-resolution PNG copies in work/preview-public, mascot at source resolution; source media unchanged"
+  },
+  "latest_full_hd_export": false,
+  "workflow": {
+    "propose_plan_before_visual_edits": true,
+    "wait_for_scope_approval": true,
+    "quota_checkpoint": "After working for a while, if continued work risks high quota use, pause and ask before continuing; include progress, cause, and cheaper alternatives.",
+    "avoid_frequent_render_polling": true
+  },
+  "next_action": "Deliver the existing 540p preview for user review, then address specific feedback. Do not start another full render automatically."
+}
+
